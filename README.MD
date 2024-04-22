@@ -1,4 +1,4 @@
-# CS 6983 - Bias / Ethics Implications in AI | Enhancing Healthcare Decision-Making through Comprehensive Multimodal Data Fusion
+## CS 6983 - Bias / Ethics Implications in AI | Enhancing Healthcare Decision-Making through Comprehensive Multimodal Data Fusion
 
 This study investigates the potential benefits
 of integrating chest X-ray images into predic-
