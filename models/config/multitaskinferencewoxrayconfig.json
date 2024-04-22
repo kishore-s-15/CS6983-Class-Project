@@ -1,0 +1,15 @@
+
+{
+    "log_dir": "logs",
+    "experiment_name": "Inference_Multitask_withoutXray",
+    "batch": 32,
+    "num_workers": 32,
+    "data": "../../rgrg/rgrg_output/new_text_repr_with_xray.json",
+    "model": "./MedBERT",
+    "weights": "./MEME-multitask-final.pth",
+    "mode": "multimodal",
+    "gpu": 0,
+    "task": "multitask",
+    "dataset": "MIMIC",
+    "validation": "Validation_Mode"
+}

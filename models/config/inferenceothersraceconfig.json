@@ -1,0 +1,14 @@
+{
+    "log_dir": "logs",
+    "experiment_name": "Inference_OtherRace_Multitask",
+    "batch": 32,
+    "num_workers": 32,
+    "data": "/home/sampath.ki/rgrg/rgrg_output/others_race_text_repr.json",
+    "model": "./MedBERT",
+    "weights": "./MEME-multitask-final.pth",
+    "mode": "multimodal",
+    "gpu": 0,
+    "task": "multitask",
+    "dataset": "MIMIC",
+    "validation": "Validation_Mode"
+}

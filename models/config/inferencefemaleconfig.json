@@ -1,0 +1,14 @@
+{
+    "log_dir": "logs",
+    "experiment_name": "Inference_Female_EDdisp",
+    "batch": 32,
+    "num_workers": 32,
+    "data": "/home/sampath.ki/rgrg/rgrg_output/female_text_repr.json",
+    "model": "./MedBERT",
+    "weights": "./MEME-disposition-final.pth",
+    "mode": "multimodal",
+    "gpu": 0,
+    "task": "eddispo",
+    "dataset": "MIMIC",
+    "validation": "Validation_Mode"
+}

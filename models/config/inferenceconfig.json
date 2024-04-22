@@ -1,0 +1,14 @@
+{
+    "log_dir": "logs",
+    "experiment_name": "Inference_EDdisp",
+    "batch": 32,
+    "num_workers": 32,
+    "data": "../../rgrg/rgrg_output/new_text_repr_with_xray.json",
+    "model": "./MedBERT",
+    "weights": "./weights/Training_with_Xray_Kishore-eddispo-1-final.pth",
+    "mode": "multimodal",
+    "gpu": 0,
+    "task": "eddispo",
+    "dataset": "MIMIC",
+    "validation": "Validation_Mode"
+}
